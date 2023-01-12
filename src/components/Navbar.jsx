@@ -4,8 +4,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -102,7 +100,7 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/hugh-vanosdall-bab720230/'
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -111,7 +109,7 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/hughvanosdall'
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
