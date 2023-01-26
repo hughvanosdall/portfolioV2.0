@@ -19,7 +19,7 @@ const Home = () => {
           HUGH VANOSDALL
         </h1>
         <h2 className='text-4xl sm:text-6xl font-bold text-[#48ABA9]'>
-          Front-End Web Devloper
+          Front-End Web Developer
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           I specialize in web and game development, building first-class virtual experiences.
